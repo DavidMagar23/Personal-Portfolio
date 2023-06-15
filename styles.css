@@ -78,6 +78,7 @@ header li:hover {
 
 #welcome-section {
     font-size: 3rem;
+    background: radial-gradient(rgba(216, 214, 214, 0.87), rgb(255, 255, 255));
 }
 
 #outro-section {
@@ -220,7 +221,7 @@ header li:hover {
     align-items: center;
 }
 
-@media only screen and (max-width: 1280px) {
+@media only screen and (max-width: 1000px) {
     body {
         font-size: 12px;
     }
@@ -298,6 +299,7 @@ header li:hover {
     }
     #about-me {
         min-height: 0;
+        font-size: 2.5vw;
     }
 
     .deco {
